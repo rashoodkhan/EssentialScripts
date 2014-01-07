@@ -4,6 +4,7 @@
 :set shiftwidth=4
 :set smarttab
 :set smartindent
+:set nu
 inoremap ( ()<Esc>i
         inoremap [ []<Esc>i
         inoremap { {<CR>}<Esc>O
