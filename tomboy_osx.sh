@@ -4,11 +4,9 @@
 
 
 # Gets the code for Tomboy.osx from github
-git clone https://github.com/tomboy-notes/tomboy.osx.git
+git clone --recursive https://github.com/tomboy-notes/tomboy.osx.git
 cd tomboy.osx
-#Removes the tomboy-library link and gets the latest code for Tomboy-Library
-rm -rf tomboy-library
-git clone https://github.com/tomboy-notes/tomboy-library.git
+#Build the tomboy library
 cd tomboy-library
 make
 cd ..
